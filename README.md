@@ -1,1 +1,1 @@
-Hacker rank python solutiins.
+Hacker Rank Python solutions.
