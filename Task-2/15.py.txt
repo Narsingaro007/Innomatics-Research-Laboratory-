@@ -1,0 +1,13 @@
+Symmetric_difference
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+n1 = set(map(int,input().split()))
+m = int(input())
+m1 = set(map(int,input().split()))
+result = n1.symmetric_difference(m1)
+
+count = 0
+for i in result:
+    count = count+1
+print(count)

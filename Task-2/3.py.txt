@@ -1,0 +1,16 @@
+Nested Lists
+
+Result = []
+Gradelist = []
+
+if __name__ == '__main__':
+    for i in range(int(input())):
+        name = input()
+        grade = float(input())
+        Result +=[[name,grade]]
+        Gradelist +=[grade]
+    b=sorted(list(set(Gradelist)))[1]   
+
+for a,c in sorted(Result):
+    if c==b:
+        print(a)

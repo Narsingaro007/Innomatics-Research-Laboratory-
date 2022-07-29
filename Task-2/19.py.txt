@@ -1,0 +1,23 @@
+Check Strict Superset
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+def checker():
+    sub = set(map(int,input().split()))
+    if sub.issubset(a):
+        if len(a)==len(sub):
+            list.append(0)
+        else:
+            list.append(1)
+    else:
+        list.append(0)
+        
+a = set(map(int,input().split()))
+n = int(input())
+list = []
+for i in range(n):
+    checker()
+if all(list)==1:
+    print(True)
+else:
+    print(False)
+            

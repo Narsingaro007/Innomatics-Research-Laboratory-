@@ -1,0 +1,14 @@
+Set.intersection()
+
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+number_of_students=int(input())
+roll_numbers =set(map(int,input().split()))
+student_subsctibe = int(input())
+separated_roll_numbers = set(map(int,input().split()))
+
+total_number_number_of_students = roll_numbers.intersection(separated_roll_numbers)
+count=0
+for i in total_number_number_of_students:
+    count= count+1
+print(count)

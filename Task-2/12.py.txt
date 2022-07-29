@@ -1,0 +1,13 @@
+Set.union()
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+l= set(map(int,input().split()))
+t = int(input())
+k= set(map(int,input().split()))
+
+ans = l.union(k)
+count = 0
+for i in ans:
+    count=count+1
+print(count)
