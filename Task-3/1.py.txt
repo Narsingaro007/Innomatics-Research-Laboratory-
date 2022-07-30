@@ -1,0 +1,8 @@
+Polar Coordinates
+
+import cmath
+n = complex(input().strip())
+
+res = cmath.polar(n)
+print(res[0])
+print(res[1])
