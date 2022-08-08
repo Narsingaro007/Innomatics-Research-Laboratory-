@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex101 Clone</title>
+</head>
+<body>
+    <h1>Welcome to the Regex101 page</h1>
+
+    <form action="{{url_for('index')}}", method="post">
+        </label> Target String</label> 
+        <input type="text" name = "target" value={{target}}> <br> 
+        <label>Enter Regular Expression</label>
+        <input type="text" name = "regex" value={{regex}}>  <br/>
+        <input type="Submit" value="Submit">
+
+      
+        
+    </form>
+
+    Result:{{lst}} <br>
+    length : {{length_lst}}
+</body>
+</html>
